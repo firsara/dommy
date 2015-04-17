@@ -1,0 +1,46 @@
+// Key constants
+var KEY_PLUS_NUMROW = 187;
+var KEY_PLUS_NUMPAD = 43;
+var KEY_MINUS_NUMPAD = 45;
+var KEY_MINUS_NUMROW = 45;
+var KEY_RIGHT_CARET = 46;
+var KEY_LEFT_CARET = 44;
+var KEY_O = 111;
+var KEY_A = 65;
+var KEY_S = 83;
+var KEY_D = 68;
+var KEY_F = 70;
+var KEY_X = 88;
+var KEY_P = 80;
+var KEY_B = 66;
+var KEY_V = 86;
+var KEY_W = 87;
+
+var KEY_ENTER = 13;
+
+var KEY_LEFT_ARROW_NUMPAD = 100; // 52;
+var KEY_RIGHT_ARROW_NUMPAD = 102; // 54;
+var KEY_UP_ARROW_NUMPAD = 104; // 56;
+var KEY_DOWN_ARROW_NUMPAD = 98; // 50;
+
+var LOCK_KEY_LEFT_ARROW_NUMPAD = 37; // 52;
+var LOCK_KEY_RIGHT_ARROW_NUMPAD = 39; // 54;
+var LOCK_KEY_UP_ARROW_NUMPAD = 38; // 56;
+var LOCK_KEY_DOWN_ARROW_NUMPAD = 40;// 50;
+
+var KEY_UP = 38;
+var KEY_DOWN = 40;
+var KEY_LEFT = 37;
+var KEY_RIGHT = 39;
+
+var KEY_ESCAPE = 27;
+var KEY_TAB = 9;
+var KEY_SHIFT = 16;
+
+var KEY_SPACEBAR = 32;
+var KEY_PAGE_UP = 33;
+var KEY_PAGE_DOWN = 34;
+
+var KEY_LEFT_BRACE = 219;
+var KEY_RIGHT_BRACE = 221;
+var KEY_BACK_SLASH = 220;

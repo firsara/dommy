@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>dommy</title>
+
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="stylesheet" href="public/assets/stylesheets/fonts.css" type="text/css">
+  <link rel="stylesheet" href="public/assets/stylesheets/icons.css" type="text/css">
+  <link rel="stylesheet" href="public/assets/stylesheets/screen.css" type="text/css">
+  <link rel="stylesheet" href="public/assets/stylesheets/debug.css" type="text/css">
+
+  <script>var DEBUG = true;</script>
+  <script src="utils/TouchEmulator.js"></script>
+  <script src="utils/stats.js"></script>
+
+  <script>
+    TouchEmulator();
+
+    var stats = new Stats();
+
+    window.addEventListener('load', function(){
+      document.body.appendChild( stats.domElement );
+    });
+  </script>
+
+  <script data-main="app" src="bower_components/requirejs/require.js"></script>
+</head>
+
+<body class="debug">
+  <div id="debug"></div>
+</body>
+</html>

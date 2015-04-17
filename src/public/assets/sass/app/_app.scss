@@ -1,0 +1,15 @@
+@import "components/component";
+@import "modules/module";
+
+.transformable {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  > * {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include transform(translate(-50%, -50%));
+  }
+}
