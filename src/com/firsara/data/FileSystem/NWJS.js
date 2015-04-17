@@ -55,11 +55,6 @@ define([
       }, overwrite);
     };
 
-    // TODO: cache every image file that gets loaded from a server
-    // TODO: write to a local session file
-    // TODO: purge cache every x days
-    // TODO: purge cache on every cms update?
-
     _this.cache = function(url, callback, overwrite){
       if (url.indexOf('https') >= 0 || url.indexOf('http') >= 0) {
         var fileId = new Buffer(url).toString('base64');
