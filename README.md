@@ -1,6 +1,6 @@
 # dommy.js
 
-minimal requirejs-based framework for creating touch applications
+> minimal requirejs-based framework for creating touch applications
 
 ## Installation
 
